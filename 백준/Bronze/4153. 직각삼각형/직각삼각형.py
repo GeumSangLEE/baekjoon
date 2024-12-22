@@ -16,6 +16,6 @@ while True:
             lst.append('wrong')
 for i in lst:
     print(i)
-lst = []
+
             
         
