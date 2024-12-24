@@ -10,7 +10,7 @@ for i in t_size:
         if i == (i // t ):
             t_num += i
         else:
-            t_num += math.ceil(i / t)
+            t_num += (i+t-1) // t
     elif i == 0:
         t_num += 0
     else:
