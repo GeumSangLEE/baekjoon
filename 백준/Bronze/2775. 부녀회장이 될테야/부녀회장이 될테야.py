@@ -1,3 +1,4 @@
+#금상
 import sys
 
 T = int(sys.stdin.readline())
@@ -14,7 +15,7 @@ for i in range(T):
         k_max = k
         
     
-for i in range(k_max+1):
+for i in range(k_max):
     l = []
     for j in range(1,15):
         if i == 0:
@@ -26,9 +27,3 @@ for i in range(k_max+1):
  
 for k,n in k_n:
     print(sum(lst[k-1][:n]))
-                
-        
-            
-            
-            
-
